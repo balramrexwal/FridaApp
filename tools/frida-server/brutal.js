@@ -7,7 +7,7 @@ Java.perform(function x() {
 
         var start = new Date().getTime()
 
-        for(var i=0000; i<100000; i++){
+        for(var i=1; i<9999; i++){
             var result = instance.checkPin(i+"");
             console.log("checking pin: " + i + " result: " + result);
             if(result){
